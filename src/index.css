@@ -219,7 +219,8 @@ body {
             @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
 
             > div {
-                @apply rounded-3xl overflow-hidden h-72 relative;
+                @apply rounded-3xl overflow-hidden relative
+                h-48 md:h-56 lg:h-60 xl:h-64;
             }
 
             img {
@@ -231,13 +232,15 @@ body {
             @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
 
             > div {
-                @apply rounded-3xl overflow-hidden h-72 relative;
+                @apply rounded-3xl overflow-hidden relative
+                h-48 md:h-56 lg:h-60 xl:h-64;
             }
 
             img {
                 @apply object-cover w-full h-full;
             }
         }
+
     }
 
     #art {
